@@ -45,6 +45,7 @@ function RecipeCreate({ addRecipe }) { //This Function is used to add component 
                 placeholder="Name"
                 onChange={handleChange}
                 value={formData.name}
+                required= {true}
               />
             </td>
             <td>
@@ -55,6 +56,7 @@ function RecipeCreate({ addRecipe }) { //This Function is used to add component 
                 placeholder="Cuisine"
                 onChange={handleChange}
                 value={formData.cuisine}
+                required= {true}
               />
             </td>
             <td>
@@ -65,6 +67,7 @@ function RecipeCreate({ addRecipe }) { //This Function is used to add component 
                 placeholder="URL"
                 onChange={handleChange}
                 value={formData.photo}
+                required= {true}
               />
             </td>
             <td>
@@ -74,6 +77,7 @@ function RecipeCreate({ addRecipe }) { //This Function is used to add component 
                 placeholder="Ingredients"
                 onChange={handleChange}
                 value={formData.ingredients}
+                required= {true}
               />
             </td>
             <td>
@@ -83,6 +87,7 @@ function RecipeCreate({ addRecipe }) { //This Function is used to add component 
                 placeholder="preparation"
                 onChange={handleChange}
                 value={formData.preparation}
+                required= {true}
               />
             </td>
             <td>
